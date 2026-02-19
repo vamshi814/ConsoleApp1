@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>DataTypes</StartupObject>
+    <StartupObject>DataTypeConversions</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -46,8 +46,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DataTypes.cs" />
-    <Compile Include="Program.cs" />
+    <Compile Include="2DataTypes.cs" />
+    <Compile Include="1Program.cs" />
+    <Compile Include="3String.cs" />
+    <Compile Include="4TypeConversions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
