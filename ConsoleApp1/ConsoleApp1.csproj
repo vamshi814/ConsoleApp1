@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>DataTypeConversions</StartupObject>
+    <StartupObject>ReadLine</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -50,6 +50,8 @@
     <Compile Include="1Program.cs" />
     <Compile Include="3String.cs" />
     <Compile Include="4TypeConversions.cs" />
+    <Compile Include="5Arrays.cs" />
+    <Compile Include="6ReadLine.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
