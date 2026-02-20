@@ -56,7 +56,7 @@ class Methods
     static int CallInt(int a, int b) { 
         return a + b;
     }
-
+    //Methods returning arrays
     static string[] getEmpNames()
     {
         string[] names = { "kohli", "gambhir", "dk", "rp" };
