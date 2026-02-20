@@ -21,6 +21,8 @@ class Methods
         Console.WriteLine("Method Int : " + id);
         int a=10,b=20;
         Console.WriteLine(string.Format("Additon of {0} and {1} is : {2}",a,b,CallInt(a,b)));
+        string[] names = getEmpNames();
+        foreach (string name in names) Console.WriteLine($"Name is: {name}");
 
     }
     //Non-return type methods:
@@ -53,5 +55,11 @@ class Methods
     //Methods with Params
     static int CallInt(int a, int b) { 
         return a + b;
+    }
+
+    static string[] getEmpNames()
+    {
+        string[] names = { "kohli", "gambhir", "dk", "rp" };
+        return names;
     }
 }
