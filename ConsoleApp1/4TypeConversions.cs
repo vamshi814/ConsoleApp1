@@ -14,6 +14,7 @@ class DataTypeConversions
         //errors might occur,data loss might occurs
         int employees = 256;
         byte employeesByte = (byte)employees;//suppose if 256 -> 0 or (number % 256)
+
         Console.WriteLine("Lower holder : " + employeesByte);
 
 
