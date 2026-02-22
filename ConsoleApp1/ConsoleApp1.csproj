@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Methods</StartupObject>
+    <StartupObject>MemoryManagement</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -53,6 +53,7 @@
     <Compile Include="5Arrays.cs" />
     <Compile Include="6ReadLine.cs" />
     <Compile Include="7Methods.cs" />
+    <Compile Include="8MemoryManagement.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
